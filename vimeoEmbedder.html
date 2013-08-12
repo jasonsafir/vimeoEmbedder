@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+		<title>vimeoEmbedder.js by Jason Safir</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="vimeoEmbedder.js for jQuery helps you easily embed and extend the customization beyond the Vimeo player’s native abilities." />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/vimeoEmbedder.css" />
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.vimeoEmbedder.js"></script> 
+	</head>
+    <body">
+        <div id="content">
+
+            <h1>vimeoEmbedder.js</h1>
+
+            <p class="ingress">Extend and simplify the customization and styling configuration of the Vimeo player using jQuery.</p>
+
+            <ul class="github-block">
+              <li><a href="http://www.underwater.ca/vimeoembedder/download/vimeoEmbedder.zip">Download <strong>ZIP File</strong></a></li>
+              <li><a href="http://www.underwater.ca/vimeoembedder/download/vimeoEmbedder.tar.gz">Download <strong>TAR Ball</strong></a></li>
+              <li><a href="http://github.com/jasonsafir/vimeoEmbedder">Fork On <strong>GitHub</strong></a></li>
+            </ul>
+
+            <div id="version">Latest version: 1.0 (August 10, 2013)</div>
+            <div id="author">Author: <a href="http://www.jasonsafir.com">Jason Safir</a></div>
+
+            <p>vimeoEmbedder.js for jQuery helps you easily embed and extend the customization beyond the Vimeo player’s native abilities</p>
+
+            <h2>Overview</h2>
+
+            <p>vimeoEmbedder.js for jQuery helps you easily embed and extend the customization beyond the Vimeo player’s native abilities. The lightweight plugin is designed to help give you creative control over how your Vimeo videos are presented by configuring a set of options. In addition, vimeoEmbedder.js enables you to customize your own placeholder image for any Vimeo video. The plugin does not embed Vimeo videos when a web page loads on the fly, but rather allows the user to embed the video player on click.</p>
+
+
+            <h2>Configuration Options</h2>
+
+			 <h3>vimeoID</h3>
+            <p class="options">Input the Video ID that is assigned to your video file at Vimeo.com. (copy the URL or ID from your web browser’s address bar while viewing the video on Vimeo.)</p>
+
+			 <h3>width</h3>
+            <p class="options">Width of the player in pixels (defaults to 480 pixels).</p>
+
+			 <h3>height</h3>
+            <p class="options">Height of the player in pixels (defaults to 270 pixels).</p>
+
+			 <h3>vimeoColor</h3>
+            <p class="options">Changes the color scheme of the Vimeo player (including play button, progress bar and volume levels).</p>
+
+			 <h3>image</h3>
+            <p class="options">URL to a JPG/PNG poster image to display before the Vimeo video is loaded and playback is started.</p>
+
+			 <h3>playButtonColor</h3>
+            <p class="options">Sets the background color of the poster image play button.</p>
+
+			 <h3>vimeoBackground</h3>
+            <p class="options">Assign a background color for the Vimeo player.</p>
+
+            <h2>Usage and Options</h2>
+
+          <p>1) To use vimeoEmbedder.js, the first thing you should do is load the scripts and stylesheet found in the distribution within the head tag:</p>
+
+            <code>
+            &lt;link rel=<span class="string">"stylesheet"</span> href=<span class="string">"css/vimeoEmbedder.css"</span>&gt;<br>            
+            &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"js/jquery-1.10.2.min.js"</span>&gt;&lt;/script&gt;<br>
+            &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"js/jquery.vimeoEmbedder.js"</span>&gt;&lt;/script&gt;
+          </code>
+
+            <p>2) Next, place the following source code anywhere inside the body tag of your HTML document where you would like the Vimeo player to be displayed:</p>
+
+            <code>
+            &lt;div id=<span class="string">"vimeoEmbedder"</span>&gt;&lt;/div&gt;
+            </code>
+
+
+            <p>3) Customize and style the Vimeo player configuration options inside the <a href="js/jquery.vimeoEmbedder.js">jquery.vimeoEmbedder.js</a> javascript file.</p>
+            
+            <h2>Browsers and platforms</h2>
+
+           <p>vimeoEmbedder.js works reliably on Firefox, Safari, Chrome and IE.</p>
+
+            <div class="browsers">
+                <img src="http://www.underwater.ca/vimeoembedder/safari.png" alt="Safari" height="48" width="48">
+                <img src="http://www.underwater.ca/vimeoembedder/chrome.png" alt="Chrome" height="48" width="48">
+                <img src="http://www.underwater.ca/vimeoembedder/ff.png" alt="Firefox" height="48" width="48">
+                <img src="http://www.underwater.ca/vimeoembedder/ie.png" alt="IE" height="48" width="48">
+           </div>
+
+            <h2>Demo</h2>
+            
+			<div id="vimeoEmbedder"></div> 
+
+            <p>The above Vimeo player uses the following <a href="js/jquery.vimeoEmbedder.js">vimeoEmbedder.js</a> configuration options:</p>
+            
+            <code>
+            var vimeoID = "<span class="string">1185749</span>";<br>
+var width = "<span class="string">480</span>";<br>
+var height = "<span class="string">270</span>";<br>
+var image = "<span class="string">http://www.underwater.ca/vimeoembedder/plugin/img/cover.jpg</span>";<br>
+var vimeoColor = "<span class="string">88d6f6</span>";<br>
+var playButtonColor= "<span class="string">88d6f6</span>";<br>
+var vimeoBgColor = "<span class="string">f1f1f1</span>";<br>
+            </code>
+
+            <div class="clearer"></div>
+
+       </div>
+
+    
+</body>
+</html>

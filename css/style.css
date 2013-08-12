@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round'), local('VarelaRound-Regular'), url(http://themes.googleusercontent.com/static/fonts/varelaround/v3/APH4jr0uSos5wiut5cpjrqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    /* was Open Sans, but it was too difficult to read */
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:15px;
+    line-height:24px;
+    font-weight:300;
+    color:#000;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p.options {margin-top:0px;}
+
+h1, h2, h3 {
+    font-weight:400;
+    font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial;
+}
+
+h1 {
+    font-size:40px;
+}
+
+h2 {
+    margin-top:40px;
+    margin-bottom:25px;
+}
+
+h3 {padding-bottom:0px;}
+
+#content {
+    padding:5%;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.ingress {
+    font-size:22px;
+    line-height:30px;
+    margin-top:20px;
+}
+
+q {
+    color:#090;
+}
+
+a {
+    color:#39C;
+    text-decoration:none;
+}
+
+code {
+    font-size:12px;
+    border:1px solid #EAEAEA;
+    border-radius:3px;
+    background-color:#F8F8F8;
+    padding:7px 12px;
+    margin: 15px 0;
+    display:block;
+    overflow-x:auto;
+}
+
+code                       { color: #333}
+code .keyword              { color: #27c; font-weight:bold; }
+code .string, code .regexp { color: #c43 }
+code .class, code .special { color: #090 }
+code .number               { color: #c43 }
+code .comment              { color: grey }
+
+.link-section {
+    float: left;
+    width:140px;
+    height:130px;
+    margin-right:45px;
+    margin-bottom:25px;
+}
+
+.link-section img {
+ -webkit-box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+}
+
+.clearer {
+    clear:both;
+}
+
+#size-box {
+    display:block;
+    width:160px;
+    /*background-color:#683;*/
+    background-color:#090;
+    color:white;
+    padding:20px;
+    position:absolute;
+    top:-30px;
+    left:390px;
+    -webkit-transform:rotate(20deg) scale(0.5);
+    -moz-transform:rotate(20deg) scale(0.5);
+    -ms-transform:rotate(20deg) scale(0.5);
+    -o-transform:rotate(20deg) scale(0.5);
+    border-radius:6px;
+}
+
+#size-box:hover {
+    background-color:#0b0;
+}
+
+#size-box.selectedZoomTarget:hover {
+    background-color:#090;
+}
+
+#size-box .huge {
+    font-size:30px;
+    display:inline-block;
+    line-height:36px;
+    margin-bottom:6px;
+}
+
+ul {
+    list-style:circle;
+    margin-left:20px;
+}
+
+/* ul.github-block from the minimal theme by Steve Smith:
+   http://orderedlist.github.com/minimal */
+
+ul.github-block {
+  list-style:none;
+  height:40px;
+  margin-left:0px;
+  margin-bottom:25px;
+  
+  padding:0;
+  
+  background: #eee;
+  background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+  
+  border-radius:5px;
+  border:1px solid #d2d2d2;
+  box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+  width:270px;
+}
+
+ul.github-block li {
+  width:89px;
+  float:left;
+  border-right:1px solid #d2d2d2;
+  height:40px;
+}
+
+ul.github-block a {
+  line-height:1;
+  font-size:11px;
+  color:#999;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:40px;
+}
+
+ul.github-block li + li {
+  width:88px;
+  border-left:1px solid #fff;
+}
+
+ul.github-block li + li + li {
+  border-right:none;
+  width:89px;
+}
+
+ul.github-block a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
+
+.browsers img {
+    margin-right:8px;
+}
+
+.social-buttons {
+    margin-top:25px;
+}
