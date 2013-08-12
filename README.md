@@ -40,17 +40,14 @@ Usage and Options
 
 1) To use vimeoEmbedder.js, the first thing you should do is load the scripts and stylesheet found in the distribution within the head tag:
 
-<pre><code>
-  &lt;link rel=<span class="string">"stylesheet"</span> href=<span class="string">"css/vimeoEmbedder.css"</span>&gt;
-  &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"js/jquery-1.10.2.min.js"</span>&gt;&lt;/script&gt;<br>
+<pre><code>&lt;link rel=<span class="string">"stylesheet"</span> href=<span class="string">"css/vimeoEmbedder.css"</span>&gt;
+  &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"js/jquery-1.10.2.min.js"</span>&gt;&lt;/script&gt;
   &lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"js/jquery.vimeoEmbedder.js"</span>&gt;&lt;/script&gt;
 </code></pre>
 
 2) Next, place the following source code anywhere inside the body tag of your HTML document where you would like the Vimeo player to be displayed:
 
-<pre><code>
-&lt;div id=<span class="string">"vimeoEmbedder"</span>&gt;&lt;/div&gt;
-</code></pre>
+<pre><code>&lt;div id=<span class="string">"vimeoEmbedder"</span>&gt;&lt;/div&gt;</code></pre>
 
 3) Customize and style the Vimeo player configuration options inside the jquery.vimeoEmbedder.js javascript file.
 
