@@ -2,6 +2,7 @@ vimeoEmbedder.js
 ================
 
 Version: 1.0 (August 10, 2013)
+
 Author: Jason Safir
 
 vimeoEmbedder.js: Extend and simplify the customization and styling configuration of the Vimeo player using jQuery
