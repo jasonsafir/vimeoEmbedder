@@ -2,7 +2,7 @@ vimeoEmbedder.js
 ================
 Embed and extend the customization of the Vimeo player beyond its native abilities.<br>
 Version: 1.0 (August 10, 2013)<br>
-Author: Jason Safir
+Author: Jason Safir (http://www.jasonsafir.com)
 
 Overview
 --------
