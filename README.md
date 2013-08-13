@@ -8,12 +8,12 @@ Author: Jason Safir
 
 Overview
 --------
-vimeoEmbedder.js for jQuery helps artists and designers present their Vimeo videos on websites in the way they want them to. The lightweight plugin is designed to help give you creative control over how your Vimeo videos are presented by configuring a set of options. In addition, vimeoEmbedder.js enables you to customize your own placeholder image for any Vimeo video. The plugin does not embed Vimeo videos when a web page loads on the fly, but rather allows the user to embed the video player on-click.
+vimeoEmbedder.js for jQuery helps artists and designers present their Vimeo videos on websites the way they want them to. The lightweight plugin is designed to help give you creative control over how your Vimeo videos are presented by configuring a set of options. In addition, vimeoEmbedder.js enables you to customize your own placeholder image for any Vimeo video. The plugin does not embed Vimeo videos when a web page loads on the fly, but rather allows the user to embed the video player on-click.
 
 Configuration Options
 ---------------------
 
-vimeoID
+<b>vimeoID</b>
 Input the Video ID that is assigned to your video file at Vimeo.com. (copy the URL or ID from your web browser’s address bar while viewing the video on Vimeo.)
 
 width
