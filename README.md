@@ -16,23 +16,23 @@ Configuration Options
 <b>vimeoID</b>
 <br>Input the Video ID that is assigned to your video file at Vimeo.com. (copy the URL or ID from your web browser’s address bar while viewing the video on Vimeo.)
 
-width
-Width of the player in pixels (defaults to 480 pixels).
+<b>width</b>
+<br>Width of the player in pixels (defaults to 480 pixels).
 
-height
-Height of the player in pixels (defaults to 270 pixels).
+<b>height</b>
+<br>Height of the player in pixels (defaults to 270 pixels).
 
-vimeoColor
-Changes the color scheme of the Vimeo player (including play button, progress bar and volume levels).
+<b>vimeoColor</b>
+<br>Changes the color scheme of the Vimeo player (including play button, progress bar and volume levels).
 
-image
-URL to a JPG/PNG poster image to display before the Vimeo video is loaded and playback is started.
+<b>image</b>
+<br>URL to a JPG/PNG poster image to display before the Vimeo video is loaded and playback is started.
 
-playButtonColor
-Sets the background color of the poster image play button.
+<b>playButtonColor</b>
+<br>Sets the background color of the poster image play button.
 
-vimeoBackground
-Assign a background color for the Vimeo player.
+<b>vimeoBackground</b>
+<br>Assign a background color for the Vimeo player.
 
 Usage and Options
 -----------------
