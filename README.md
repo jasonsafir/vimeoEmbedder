@@ -14,8 +14,7 @@ Configuration Options
 ---------------------
 
 <b>vimeoID</b>
-
-Input the Video ID that is assigned to your video file at Vimeo.com. (copy the URL or ID from your web browser’s address bar while viewing the video on Vimeo.)
+<br>Input the Video ID that is assigned to your video file at Vimeo.com. (copy the URL or ID from your web browser’s address bar while viewing the video on Vimeo.)
 
 width
 Width of the player in pixels (defaults to 480 pixels).
